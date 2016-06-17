@@ -18,7 +18,10 @@ public class SimpleAssetBundleDownloader : MonoBehaviour {
     /// </summary>
     public string assetBundleName;
 
-    public Image testingImage;
+    /// <summary>
+    /// The reference to My data object scriptable object.
+    /// </summary>
+    public MyDataObject myDataObject;
 
     void Start () {
         StartCoroutine(DownloadAssetBundle());
@@ -36,11 +39,8 @@ public class SimpleAssetBundleDownloader : MonoBehaviour {
                 throw new Exception("WWW download had an error:" + www.error);
             }                
             AssetBundle bundle = www.assetBundle;
-            testingImage.sprite = bundle.LoadAsset<Sprite>(assetBundleName);
+            myDataObject.spriteField = bundle.LoadAsset<Sprite>(assetBundleName);
 
-//            foreach (string s in bundle.GetAllAssetNames()) {
-//                print ("s = " + s);
-//            }
         }
     }
 
