@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33eda4bb3b090f4baef61b819149d21, type: 3}
+  m_Name: CampaignDataObject
+  m_EditorClassIdentifier: 
+  name: Campaign1
+  id: 0
+  url: 
+  categoryList:
+  - name: Books
+    id: 0
+    url: http://192.168.248.129/books
+    itemList:
+    - name: Ami
+      id: 0
+      url: http://192.168.248.129/books/ami
+      smallSprite: {fileID: 0}
+      bigSprite: {fileID: 0}
+    - name: Fragmentos
+      id: 0
+      url: http://192.168.248.129/books/fragmentos
+      smallSprite: {fileID: 0}
+      bigSprite: {fileID: 0}
+    - name: Osho
+      id: 0
+      url: http://192.168.248.129/books/osho
+      smallSprite: {fileID: 0}
+      bigSprite: {fileID: 0}
+  - name: Videogames
+    id: 0
+    url: http://192.168.248.129/videogames
+    itemList:
+    - name: CsGo
+      id: 0
+      url: http://192.168.248.129/videogames/csgo
+      smallSprite: {fileID: 0}
+      bigSprite: {fileID: 0}
+    - name: RL
+      id: 0
+      url: http://192.168.248.129/videogames/rl
+      smallSprite: {fileID: 0}
+      bigSprite: {fileID: 0}
+    - name: TH
+      id: 0
+      url: http://192.168.248.129/videogames/th
+      smallSprite: {fileID: 0}
+      bigSprite: {fileID: 0}
+    - name: Tekken
+      id: 0
+      url: http://192.168.248.129/videogames/tekken
+      smallSprite: {fileID: 0}
+      bigSprite: {fileID: 0}
+  - name: Instruments
+    id: 0
+    url: http://192.168.248.129/instruments
+    itemList:
+    - name: Guitar
+      id: 0
+      url: http://192.168.248.129/instruments/guitar
+      smallSprite: {fileID: 0}
+      bigSprite: {fileID: 0}
+    - name: Bass
+      id: 0
+      url: http://192.168.248.129/instruments/bass
+      smallSprite: {fileID: 0}
+      bigSprite: {fileID: 0}
+  - name: Memes
+    id: 0
+    url: http://192.168.248.129/memes
+    itemList:
+    - name: Troll
+      id: 0
+      url: http://192.168.248.129/memes/troll
+      smallSprite: {fileID: 0}
+      bigSprite: {fileID: 0}
+    - name: Ming
+      id: 0
+      url: http://192.168.248.129/memes/ming
+      smallSprite: {fileID: 0}
+      bigSprite: {fileID: 0}
+    - name: Trololol
+      id: 0
+      url: http://192.168.248.129/memes/trololol
+      smallSprite: {fileID: 0}
+      bigSprite: {fileID: 0}
